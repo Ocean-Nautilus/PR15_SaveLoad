@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50240d060c645ec40b7a56e9351fbcec, type: 3}
+  m_Name: MainGameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GameConfig
+  configName: "\u041E\u0441\u043D\u043E\u0432\u043D\u0430\u044F \u043A\u043E\u043D\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u044F"
+  difficulty: 1
+  startingHealth: 100
+  startingMana: 50
+  startingSpeed: 5
+  startingGold: 500
+  sellPriceMultiplier: 0.5
+  buyPriceMultiplier: 1.5
+  experienceMultiplier: 1
+  saveFileName: savegame
+  useEncryption: 0
+  encryptionKey: MySecretKey123
